@@ -26,7 +26,7 @@ module.exports = function(location) {
 				if (body.cod == '404') {
 					reject('City Not found')
 				} else {
-					resolve('Its ' + body.main.temp + 'degrees celcius in ' + location)
+					resolve('Its ' + body.main.temp + ' degrees in ' + location)
 				}
 			}
 		})
